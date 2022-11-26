@@ -59,3 +59,76 @@ body {
     background-color: black;
 
 }
+
+/* ------------------ */
+
+
+.WORKS_COMPLETED {
+    background-position: center;
+    height: 500px;
+    width: 90%;
+
+    background-image: url('../post-3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+
+
+
+}
+
+.row_col {
+    background-color: rgba(5, 19, 213, 0.536);
+
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    border-radius: 20px;
+}
+
+.WORK_icon i {
+    font-size: 50px;
+    color: white;
+}
+
+.glary_icon i {
+    color: black;
+    font-size: 40px;
+}
+
+.cat_bg {
+    background-color: rgb(249, 242, 234);
+    border-radius: 15px;
+}
+
+/* ------------ */
+.img_ho img {
+    width: 95%;
+    height: 95%;
+    background: red;
+    transition: width 0.5s;
+    border-radius: 15px;
+}
+
+.img_ho img:hover {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------- */
+
+.tim {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.384);
+}
+
+.card_futer_img img {
+
+    height: 45px;
+    width: 45px;
+    border-radius: 70px;
+}
