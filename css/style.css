@@ -19,7 +19,7 @@ body {
 
 .main_back {
 
-    background-image: url("../1\ \(2\).jpg");
+    background-image: url("../5467393_1687.jpg");
     background-color: red;
     height: 600px;
     width: 100%;
@@ -131,4 +131,57 @@ body {
     height: 45px;
     width: 45px;
     border-radius: 70px;
+}
+
+/* ------------------------ */
+/* form section */
+#foro {
+    background-image: url("../overlay-bg.jpg");
+    border: 20px;
+    background-attachment: fixed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.location_contact {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+
+}
+
+.location_contact a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.all_socal_icon a {
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+    border: 5px solid blue;
+    border-radius: 100px;
+
+}
+
+.all_socal_icon a:hover {
+    color: white;
+    background-color: rgb(89, 89, 252);
+    border: 5px solid rgba(245, 222, 179, 0.431);
+}
+
+/* -------------------------- */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+.arro_style a i {
+    font-size: 30px;
+    color: white;
+
+
 }
