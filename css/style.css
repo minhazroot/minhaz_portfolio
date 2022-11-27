@@ -119,13 +119,15 @@ body {
 }
 
 /* ------------------- */
-
+/* tim start */
 .tim {
     height: auto;
     width: 100%;
-    background-color: rgba(0, 0, 255, 0.384);
+    background-image: url("../tim/tim_bg.jpg");
+    background-attachment: fixed;
 }
 
+/* tim end */
 .card_futer_img img {
 
     height: 45px;
@@ -162,7 +164,10 @@ body {
     margin-left: 20px;
     padding: 20px;
     border: 5px solid blue;
-    border-radius: 100px;
+    /* border-radius: 70px; */
+    /* border-radius: 10px / 30px; */
+    border-radius: 5px 20px 5px;
+
 
 }
 
@@ -176,7 +181,7 @@ body {
 footer {
     height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: black;
 }
 
 .arro_style a i {
