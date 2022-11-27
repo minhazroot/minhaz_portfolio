@@ -121,7 +121,7 @@ body {
 /* ------------------- */
 
 .tim {
-    height: 300px;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 255, 0.384);
 }
