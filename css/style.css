@@ -4,6 +4,59 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* text anymation css  */
+.ml6 {
+    position: relative;
+    font-weight: 800;
+    font-size: 2.3em;
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* text anymation css  */
+
+/* type js style start  */
+
+
+.header_namr h1 {
+    display: inline-block;
+    margin-top: 225px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.name_style {
+    color: cyan;
+}
+
+.wrap {
+    margin: 0 70px;
+
+}
+
+/* #typed-strings p {
+    font-size: 40px;
+} */
+
+#typed {
+    font-size: 35px;
+    color: gold;
+}
+
+/* type js style end  */
 .border_style {
     border-bottom: 3px solid rgb(251, 251, 251);
 }
@@ -20,7 +73,7 @@ body {
 .main_back {
 
     background-image: url("../5467393_1687.jpg");
-    background-color: red;
+    /* background-color: red; */
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
