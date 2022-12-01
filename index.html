@@ -25,13 +25,14 @@
 <body>
     <!-- header sectio start -->
     <header id="arraoes">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light fixed-top">
-            <div class="container-fluid">
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-leight text-dark ">
+            <div class="container-fluid ">
                 <div>
                     <a class="navbar-brand" href="#">
-                        <a class="navbar-brand text-light" href="#">
+                        <a class="navbar-brand text-dark" href="#">
                             <img src="./2-13.jpg" alt="Logo" width="30" height="24"
-                                class="d-inline-block align-text-top">
+                                class="d-inline-block align-text-top ">
                             MINHAZ UDDIN
                         </a>
 
@@ -46,32 +47,32 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item ml-2">
-                            <a class="nav-link active border_style text-light" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active border_style text-dark" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item border_slit">
-                            <a class="nav-link active text-light " aria-current="page" href="#about">ABOUT
+                            <a class="nav-link active text-dark " aria-current="page" href="#about">ABOUT
                             </a>
                         </li>
                         <li class="nav-item border_slit">
-                            <a class="nav-link active text-light " aria-current="page" href="#SERVICES">SERVICES
-
-                            </a>
-                        </li>
-                        <li class="nav-item border_slit">
-                            <a class="nav-link active text-light" aria-current="page" href="#PORTFOLIO">WORK
-
+                            <a class="nav-link active text-dark " aria-current="page" href="#SERVICES">SERVICES
 
                             </a>
                         </li>
                         <li class="nav-item border_slit">
-                            <a class="nav-link active text-light" aria-current="page" href="#BLOG"> BLOG
+                            <a class="nav-link active text-dark" aria-current="page" href="#PORTFOLIO">WORK
+
+
+                            </a>
+                        </li>
+                        <li class="nav-item border_slit">
+                            <a class="nav-link active text-dark" aria-current="page" href="#BLOG"> BLOG
 
 
                             </a>
                         </li>
 
                         <li class="nav-item border_slit">
-                            <a class="nav-link active text-light " aria-current="page" href="#foro">CONTACT
+                            <a class="nav-link active text-dark " aria-current="page" href="#foro">CONTACT
 
                             </a>
                         </li>
@@ -716,6 +717,20 @@
                 easing: "easeOutExpo",
                 delay: 1000
             });                                               
+    </script>
+    <!-- proges bar file link  -->
+    <script src="./js/jquery.barfiller.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('#bar1').barfiller();
+            $('#bar2').barfiller();
+            $('#bar3').barfiller({ barColor: '#fc6' });
+            $('#bar4').barfiller({ barColor: '#900', duration: 3000 });
+
+        });
+
     </script>
 </body>
 
